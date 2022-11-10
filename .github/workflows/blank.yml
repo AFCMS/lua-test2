@@ -25,6 +25,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - uses: AFCMS/sumneko-lua-action@main
+      - uses: AFCMS/sumneko-lua-action@master
         with:
           level: "Warning"
